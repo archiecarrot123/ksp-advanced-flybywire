@@ -71,3 +71,14 @@ Please report any bugs using [GitHub's issue tracker](https://github.com/linuxgu
 
 [Click here for changelog](https://github.com/linuxgurugamer/ksp-advanced-flybywire/ksp-advanced-flybywire/master/CHANGELOG)
 
+### Building on Linux
+
+To build on Linux you will need a mono C# compiler (such as the Turbo C# compiler) and KSP.
+
+To compile the dll you simply need to run `make`, and to install run `make install`
+
+If your KSP is not installed to the default location, you may need to specify the install directory as an environment variable, like this:
+```bash
+KSPDIR="/path/to/Kerbal Space Program" make
+KSPDIR="/path/to/Kerbal Space Program" make install
+```
